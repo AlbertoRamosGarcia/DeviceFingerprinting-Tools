@@ -76,4 +76,10 @@ This script allows the construction of sequences of pairs of Temperature-Voltage
 The script explores CSV files *which should have been generated in a multiple format* located in the directory specified in `folder` and will generate sequences with the length specified in the `sequence_length` variable as it iterates through all the files it finds. As a result, an HDF5 file is generated for each board, containing the generated sequences and their respective labels for later use.
 
 It is worth noting that since the main objective of the script is to generate training/validation/test sets for various models, as an intermediate step before creating .hdf5 files, Z-score Data Normalization is performed on the temperature and voltage values. If this is not desired, it is recommended to comment out the indicated part of the `save_sequences_to_hdf5` function where these operations are performed and replace the `normalized_data` variable with `data_array` in the lines of that same function.
+```python
+Create Indexes for training dataset
+indexes = [board] * len(normalized_data)
 
+Include in hdf5 file
+hdf_file.create_dataset('sequences', data=normalized_data)
+```
