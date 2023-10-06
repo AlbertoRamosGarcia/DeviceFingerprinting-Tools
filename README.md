@@ -41,6 +41,7 @@ As mentioned in the initial description of this repository, it is a necessary co
     
 -   Additionally, if normalization is required (in the case where the sensor ADC conversions are acquired without conversion), it is possible as long as the values are present in a "Table_UIDs.csv" table with headers matching the fields:
 	- `BOARD_NUM`, which contains the manually assigned board number.
+	- `UID`, which contains the Unique Identifier of the board assigned by the manufacturer.
 	- `T_CAL_1`, which holds the calibration value of the board's temperature sensor at 30ºC.
 	- `T_CAL_2`, which holds the calibration value of the board's temperature sensor at 100ºC.
 	- `VREFINT_CAL`, which contains the calibration value of the board's voltage sensor.
