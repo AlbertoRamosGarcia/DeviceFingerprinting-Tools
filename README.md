@@ -1,6 +1,6 @@
 # Stimulated Microcontroller Dataset for New IoT Device Identification Schemes through On-Chip Sensor Monitoring
 
-In this repository, the scripts for manipulating for manipulating the dataset are provided (available on **Zenodo**), to construct subsets in multiple formats and options. These subsets are generated from readings collected from on-chip sensors of various electronic devices during the execution of different workloads. The aim is to train models capable of uniquely identifying these devices based on their behavior.
+In this repository, the scripts for manipulating the dataset (available on **Zenodo**) are provided , to construct subsets in multiple formats and options. These subsets are generated from readings collected from on-chip sensors of various electronic devices during the execution of different workloads. The aim is to train models capable of uniquely identifying these devices based on their behavior.
 
 Access to the dataset at [Zenodo](https://doi.org/tobe.fulfilled/zenodo.tbd).
 
