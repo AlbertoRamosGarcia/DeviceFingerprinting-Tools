@@ -2,7 +2,9 @@
 
 In this repository, the scripts for manipulating the dataset (available on **Zenodo**) are provided , to construct subsets in multiple formats and options. These subsets are generated from readings collected from on-chip sensors of various electronic devices during the execution of different workloads. The aim is to train models capable of uniquely identifying these devices based on their behavior.
 
-Access to the dataset at [Zenodo](https://doi.org/tobe.fulfilled/zenodo.tbd).
+Access to the dataset at:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10042177.svg)](https://doi.org/10.5281/zenodo.10042177) 
 
 Additionally, the requirements for utilizing these scripts, the specifics of their functionalities, and recommended practices for adapting the employed workflow and extending its usage are detailed here.
 
